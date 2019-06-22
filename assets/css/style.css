@@ -1,0 +1,126 @@
+body {
+  background-image: url(../images/papyrus.png);
+  background-repeat: repeat;
+}
+header::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.navbar {
+  background: white;
+  top: 0;
+  width: 960px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  width: 300px;
+  height: 80px;
+}
+nav {
+  float: right;
+}
+ul {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 25px;
+  position: relative;
+}
+a {
+  color: #444;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+nav a:hover {
+  color: black;
+}
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #4aaaa5;
+  position: absolute;
+  top: 0;
+  transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+  width: 100%;
+}
+section {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  width: 960px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+h1 {
+  color: #4aaaa5;
+  padding: 0 0 0 30px;
+}
+#bio-image {
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding: 30px 26px 15px 30px;
+}
+article {
+  text-align: justify;
+  padding: 30px;
+}
+#business-logo {
+  height: 0.85em;
+  margin-bottom: -3px;
+}
+#business-page {
+  font-size: 1em;
+  color: blue;
+  text-decoration: underline;
+}
+#portfolio-image {
+  width: 333px;
+  height: 270px;
+  padding: 30px;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 40%;
+  position: relative;
+}
+p {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  z-index: 1;
+  width: 333px;
+  height: 60px;
+  margin: 0 0 0 30px;
+  font-size: 26px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  background-color: #4aaaa5;
+}
+form {
+  padding: 30px;
+}
+input[type="submit"] {
+  padding: 5px 15px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 20px;
+}
