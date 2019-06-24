@@ -10,68 +10,73 @@
   <body>
     <header class="navbar">
       <!--Logo in Bario on maketext.io-->
-      <img src="assets/images/Joseph Cheok.png" alt="logo" class="logo" />
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <img src="assets/images/Joseph Cheok.png" alt="logo" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <hr />
-    <br />
-    <br />
-    <br />
-    <section>
-      <h1>Portfolio</h1>
-      <hr width="94%" />
-      <div class="row">
-        <div class="column">
-          <img
-            id="portfolio-image"
-            src="assets/images/Pic 1.jpg"
-            alt="Photoshopped Image"
-          />
-          <p>Photoshop</p>
+    <div id="main-container" class="container">
+      <section id="portfolio-section">
+        <h1>Portfolio</h1>
+        <hr width="94%" />
+        <div class="row">
+          <div class="column">
+            <img
+              id="portfolio-image"
+              src="assets/images/Pic 1.jpg"
+              alt="Photoshopped Image"
+            />
+            <p>Photoshop</p>
+          </div>
+          <div class="column">
+            <img
+              id="portfolio-image"
+              src="assets/images/Pic 2.jpg"
+              alt="Illustrated Image"
+            />
+            <p>Illustrator</p>
+          </div>
         </div>
-        <div class="column">
-          <img
-            id="portfolio-image"
-            src="assets/images/Pic 2.jpg"
-            alt="Illustrated Image"
-          />
-          <p>Illustrator</p>
+        <div class="row">
+          <div class="column">
+            <img
+              id="portfolio-image"
+              src="assets/images/Pic 3.jpg"
+              alt="Video Headshot"
+            />
+            <p>Premiere Pro</p>
+          </div>
+          <div class="column">
+            <img
+              id="portfolio-image"
+              src="assets/images/Pic 4.png"
+              alt="Basic Webpage"
+            />
+            <p>HTML</p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img
-            id="portfolio-image"
-            src="assets/images/Pic 3.jpg"
-            alt="Video Headshot"
-          />
-          <p>Premiere Pro</p>
+        <div class="row">
+          <div class="column">
+            <img
+              id="portfolio-image"
+              src="assets/images/Pic 5.jpg"
+              alt="Advanced Webpage"
+            />
+            <p>CSS</p>
+          </div>
         </div>
-        <div class="column">
-          <img
-            id="portfolio-image"
-            src="assets/images/Pic 4.png"
-            alt="Basic Webpage"
-          />
-          <p>HTML</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img
-            id="portfolio-image"
-            src="assets/images/Pic 5.jpg"
-            alt="Advanced Webpage"
-          />
-          <p>CSS</p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
+  <footer>
+    <div class="container">
+      Copyright &copy; Joseph Cheok
+    </div>
+  </footer>
 </html>
